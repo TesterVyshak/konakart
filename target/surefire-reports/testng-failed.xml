@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.konakart.testcases.Purchase_Game">
+        <methods>
+          <include name="test"/>
+          <include name="afterTest"/>
+          <include name="steup"/>
+        </methods>
+      </class> <!-- com.konakart.testcases.Purchase_Game -->
+      <class name="com.konakart.testcases.TestOne">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="closig"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="performAction"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.konakart.testcases.TestOne -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

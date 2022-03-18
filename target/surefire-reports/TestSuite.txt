@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 144.769 s <<< FAILURE! - in TestSuite
+com.konakart.testcases.TestOne.performAction  Time elapsed: 6.845 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'VYSHAK-IDEAPAD', ip: '192.168.237.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dad76e8e41363cce71a10edd28e556b5, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58311/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dad76e8e41363cce71a10edd28e556b5
+	at com.konakart.testcases.TestOne.performAction(TestOne.java:53)
+
+com.konakart.testcases.Purchase_Game.test  Time elapsed: 119.973 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.konakart.testcases.Purchase_Game.test(Purchase_Game.java:56)
+
