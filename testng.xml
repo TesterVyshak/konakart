@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test" parallel="methods">
     <classes>
       <class name="com.konakart.testcases.Purchase_Game"/>
-       <class name="com.konakart.testcases.TestOne"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
